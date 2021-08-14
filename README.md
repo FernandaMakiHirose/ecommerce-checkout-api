@@ -11,7 +11,7 @@ Neste projeto desenvolvi o backend de uma solução de e-commerce com a arquitet
 - Dependências: Spring Web, Sleuth, Cloud Stream, Spring for Apache Kafta Streams, Spring Data JPA
 
 ## Entendendo o código
-`docker-compose.yml`: Define qual serviço subir, para isso define um banco de dados para a API de checkout, banco de dados para a API de pagamento, zookeeper, kafka, schema-registry. 
+`docker-compose.yml`: Define qual serviço subir, para isso define um banco de dados para a API de checkout, banco de dados para a API de pagamento, zookeeper, kafka, schema-registry. <br>
 `bootstrap.yml`: Define o nome da aplicação.
 
 ## Docker Compose
