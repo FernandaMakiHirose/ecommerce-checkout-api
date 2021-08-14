@@ -12,9 +12,16 @@ Neste projeto desenvolvi o backend de uma solução de e-commerce com a arquitet
 
 ## Entendendo o código
 `docker-compose.yml`: Define qual serviço subir, para isso define um banco de dados para a API de checkout, banco de dados para a API de pagamento, zookeeper, kafka, schema-registry. 
+`bootstrap.yml`: Define o nome da aplicação.
 
 ## Docker Compose
 Se você navegar na pasta do Docker Compose e digitar o comando `docker-compose` você abra a lista de comandos dele.
+
+Para subir: 
+>docker-compose up --build -d
+
+Ver todos os containers que estão rodando:
+>docker ps
 
 ## Sobre a Autora
 Oi, eu sou a Fernanda! Estou aqui para contribuir com meu conhecimento e espero poder ajudar no desenvolvimento profissional de cada um de vocês.
